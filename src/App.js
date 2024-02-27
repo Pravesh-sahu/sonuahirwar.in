@@ -1,24 +1,41 @@
-import logo from './logo.svg';
+import Header from "./Component/Header"
+import Footer from "./Component/Footer"
+
 import './App.css';
+import Home from './Component/Home';
+import './custom';
+import React, { useEffect } from 'react';
+
 
 function App() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const windowHeight = window.innerHeight;
+      const containerElements = document.querySelectorAll(".container");
+      containerElements.forEach((container) => {
+        const elementTop = container.getBoundingClientRect().top;
+        const elementVisible = 100;
+        if (elementTop < windowHeight - elementVisible) {
+          container.classList.add("active");
+        } else {
+          container.classList.remove("active");
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initial check on mount
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+       <Home />
+       <Footer />
+    </>
   );
 }
 
