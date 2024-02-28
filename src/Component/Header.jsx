@@ -8,10 +8,13 @@ function Header() {
   const [isMain, setIsMain] = useState(false);
 
   useEffect(() => {
+    const htmlElement = document.querySelector('html');
     if (isMain) {
       document.body.classList.add('open');
+      htmlElement.classList.add('scroll-off'); // Add class to HTML element
     } else {
       document.body.classList.remove('open');
+      htmlElement.classList.remove('scroll-off'); // Remove class from HTML element
     }
   }, [isMain]);
 

@@ -599,8 +599,14 @@ footer .social-div {
 footer {
   background-color: #000;
 }
-
-
+@media(min-width:768px) {
+.sec-1 .active img{
+  animation: mymovec 1s ease-in-out forwards;
+}
+.sec-1 .active1 .img-main:before {
+  animation: mymoveb 1.5s ease forwards;
+}
+}
 @media(max-width:980px) {
 
   .service .row-1,
@@ -708,9 +714,11 @@ footer {
   body,
   #root {
     position: relative;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
-
+  /* .scroll-off{
+    overflow-y: hidden;
+  } */
   body:before,
   body:after,
   #root:before,
@@ -726,29 +734,33 @@ footer {
   }
 
   body:before {
-    transform: translateX(-100%);
+    width: 0 !important;
+
   }
 
   body:after {
     top: 25vh;
-    transform: translateX(100%);
+    width: 0 !important;
+    right: 0;
   }
 
   #root:before {
     top: 50vh;
-    transform: translateX(-100%);
+    width: 0 !important;
+
   }
 
   #root:after {
     top: 75vh;
-    transform: translateX(100%);
+    width: 0 !important;
+    right: 0;
   }
 
   body.open:before,
   body.open:after,
   .open #root:before,
   .open #root:after {
-    transform: unset
+width: 100% !important;
   }
 
   .main-menu {
@@ -844,6 +856,29 @@ footer {
   input:checked+div span.line-2 {
     transform: translate(-50%, -50%) rotate(45deg);
   }
+  .line-1:not(.open span ) {
+    animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
+  }
+  
+  
+  
+  .line-3:not(.open span ) {
+    animation: burger-hover 1s infinite ease-in-out alternate forwards 10ms;
+  }
+  
+  @keyframes burger-hover {
+    0% {
+      width: 100%;
+    }
+  
+    50% {
+      width: 50%;
+    }
+  
+    100% {
+      width: 100%;
+    }
+  }
 }
 
 @media(max-width:1300px) {
@@ -894,12 +929,12 @@ footer {
 }
 
 
-.sec-1 .img-main:before,
+.sec-1 .active1 .img-main:before,
 .about .active.row-1:before {
   animation: mymoveb 1.5s ease forwards;
 }
 
-.sec-1 img {
+.active1 img{
   animation: mymovec 1s ease-in-out forwards;
 }
 
@@ -977,14 +1012,14 @@ footer {
 }
 
 .contact .col-1 {
-  transform: rotateX(88deg);
+  transform: scale(0.4);
   transition: 1s ease-in-out;
 }
 
 .contact .col-2 {
   transform: translateY(166px);
-  z-index: -1;
-  opacity: 0;
+
+
   transition: 1s ease-in-out;
 }
 
@@ -996,7 +1031,7 @@ footer {
 .contact .active .col-2 {
   transform: none;
   z-index: 1;
-  opacity: 1;
+
 
 }
 

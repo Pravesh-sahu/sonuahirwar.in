@@ -14,7 +14,10 @@ function App() {
       const containerElements = document.querySelectorAll(".container");
       containerElements.forEach((container) => {
         const elementTop = container.getBoundingClientRect().top;
-        const elementVisible = 100;
+        let elementVisible = 100; // Default value
+        if (window.innerWidth < 767) {
+          elementVisible = 260; // Change value for screens below 767px
+        }
         if (elementTop < windowHeight - elementVisible) {
           container.classList.add("active");
         } else {
@@ -22,10 +25,10 @@ function App() {
         }
       });
     };
-
+  
     window.addEventListener("scroll", handleScroll);
     handleScroll(); // Initial check on mount
-
+  
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
