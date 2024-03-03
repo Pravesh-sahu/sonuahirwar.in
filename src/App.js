@@ -1,11 +1,11 @@
-import Header from "./Component/Header"
-import Footer from "./Component/Footer"
-
-import './App.css';
-import Home from './Component/Home';
-import './custom';
-import React, { useEffect } from 'react';
-
+import Header from "./Component/Header";
+import Footer from "./Component/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./Component/Home";
+import "./custom";
+import React, { useEffect } from "react";
+import Technolgies from "./Component/Technolgies.jsx";
 
 function App() {
   useEffect(() => {
@@ -25,19 +25,25 @@ function App() {
         }
       });
     };
-  
+
     window.addEventListener("scroll", handleScroll);
     handleScroll(); // Initial check on mount
-  
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
     <>
-      <Header />
-       <Home />
-       <Footer />
+     <Header />
+      <Router>
+        <Routes>
+       
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/Technolgies" element={<Technolgies />}></Route>
+        </Routes>
+      </Router>
+      <Footer />
     </>
   );
 }

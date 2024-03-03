@@ -1,6 +1,13 @@
 /*------------------ global start ------------*/
+@font-face {
+  font-family: 'Philosopher-Regular';
+  src: url('./Assests/Font/Philosopher-Regular.ttf') format('truetype'); 
+}
+
+
 body {
   background: #132033;
+  font-family: 'Philosopher-Regular', sans-serif;
 }
 
 html {
@@ -25,7 +32,7 @@ h3 {
 
 h2 {
 
-  font-family: cursive;
+
   font-size: 50px;
 }
 
@@ -140,6 +147,20 @@ span.last-name {
   background-color: #132033 !important;
 }
 
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #fff; /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #132033; /* Color of the scrollbar thumb */
+}
+
+
+
 /*------------------ header end ------------*/
 
 
@@ -147,6 +168,70 @@ span.last-name {
 /*---------------------- banner -----------*/
 .sec-1 {
   padding-bottom: 100px !IMPORTANT;
+}
+
+.white-btn::after {
+  background-color: #ffffff;
+  content: '';
+  position: absolute;
+  bottom: -196px;
+  z-index: -1;
+  border-radius: 100px;
+  width: 103%;
+  height: 179px;
+  transition: 0.6s;
+  left: 0;
+}
+
+.white-btn:hover:after,
+.white-btn:hover {
+  bottom: 0;
+  border-radius: inherit;
+  color: #132033 !important;
+}
+
+button.dark-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+button.dark-btn:before,
+button.dark-btn:after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  height: 29px;
+  width: 30px;
+  background: white;
+  top: 22%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  transition: 0.5s ease
+}
+
+button.dark-btn:after {
+  right: auto;
+  left: -30px;
+  top: 90%;
+}
+
+button.dark-btn:hover:before {
+  right: -10px;
+}
+
+button.dark-btn:hover:after {
+  left: -10px;
+  top: 77%;
+}
+
+.white-btn {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  transition: 0.6s;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 18px;
 }
 
 .sec-1 img {
@@ -242,7 +327,9 @@ span.last-name {
 .service .service-inner-sec {
   background: linear-gradient(to top, #000000 50%, #132033 50%);
 }
-
+.service img {
+  max-width: 90px;
+}
 /* .service .col:after,
 .service .col:before {
   content: "";
@@ -302,7 +389,10 @@ span.last-name {
   color: #132033;
   transform: translate(16px, -119px);
 }
-
+.about .col-3-inner img{
+  background: #132033;
+  transform: skewX(5deg);
+}
 .about .col-3-inner img,
 .about .col-3-inner {
   height: 400px;
@@ -341,6 +431,9 @@ span.last-name {
 }
 
 /* -------------------contact */
+.contact img {
+  border-radius: 200px 0px;
+}
 .contact .col-1 {
   max-width: 65%;
   flex: auto;
@@ -368,7 +461,28 @@ span.last-name {
  } */
 
 /*---------- my work */
-.myworks .row {
+.myworks .slide img {
+  opacity: 0;
+  transform: scale(.5);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.myworks .slide:nth-child(1) img {
+  transition-delay: 0.2s; /* Adjust the delay for the first slide */
+}
+
+.myworks .slide:nth-child(2) img {
+  transition-delay: 0.4s; /* Adjust the delay for the second slide */
+}
+
+/* Add more nth-child selectors for additional slides */
+
+.myworks .active .slide img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.myworks .slider {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 23px;
@@ -391,11 +505,6 @@ span.last-name {
   transform: translateY(-91px);
 }
 
-/* .myworks .slide a {
-  position: relative;
-  height: 100%;
-  display: inline-block;
-} */
 
 .myworks .slide a:before {
   position: absolute;
@@ -404,7 +513,6 @@ span.last-name {
   height: 100%;
   top: 0;
   opacity: 0.4;
-  box-shadow: inset 0 -8em 4em rgb(12 49 98);
 }
 
 .myworks .content {
@@ -534,15 +642,15 @@ span.last-name {
 }
 
 .txt-animation:hover span:nth-of-type(7) {
-  transform: translate3d(29rem, -6rem, 0) rotate(17deg)
+  transform: translate3d(24rem, -2rem, 0) rotate(17deg);
 }
 
 .txt-animation:hover span:nth-of-type(8) {
-  transform: translate3d(7rem, -6.5rem, 0) rotate(13deg)
+  transform: translate3d(12rem, -6.5rem, 0) rotate(13deg);
 }
 
 .txt-animation:hover span:nth-of-type(9) {
-  transform: translate3d(5rem, 7.5rem, 0) rotate(20deg)
+  transform: translate3d(12rem, 3.5rem, 0) rotate(20deg);
 }
 
 .txt-animation:hover span:nth-of-type(10) {
@@ -550,41 +658,40 @@ span.last-name {
 }
 
 .txt-animation:hover span:nth-of-type(11) {
-  transform: translate3d(-15rem, -8rem, 0) rotate(-6deg)
+  transform: translate3d(-2rem, -6rem, 0) rotate(-6deg);
 }
 
 .txt-animation:hover span:nth-of-type(12) {
-  transform: translate3d(-15rem, -1rem, 0) rotate(10deg)
+  transform: translate3d(-3rem, -1rem, 0) rotate(10deg);
 }
 
 .txt-animation:hover span:nth-of-type(13) {
-  transform: translate3d(-13.5rem, 3.5rem, 0) rotate(-20deg)
+  transform: translate3d(1.5rem, 2.5rem, 0) rotate(-20deg);
 }
 
 .txt-animation:hover span:nth-of-type(14) {
-  transform: translate3d(-10rem, -.5rem, 0) rotate(-26deg)
+  transform: translate3d(-10rem, -0.5rem, 0) rotate(-26deg);
 }
 
 .txt-animation:hover span:nth-of-type(15) {
-  transform: translate3d(-15rem, -8rem, 0) rotate(-6deg)
+  transform: translate3d(-15rem, -8rem, 0) rotate(-6deg);
 }
 
 .txt-animation:hover span:nth-of-type(16) {
-  transform: translate3d(-15rem, -1rem, 0) rotate(10deg)
+  transform: translate3d(-15rem, -1rem, 0) rotate(10deg);
 }
 
 .txt-animation:hover span:nth-of-type(17) {
-  transform: translate3d(-13.5rem, 3.5rem, 0) rotate(-20deg)
+  transform: translate3d(13.5rem, 5.5rem, 0) rotate(-20deg);
 }
 
 .txt-animation:hover span:nth-of-type(18) {
-  transform: translate3d(-20rem, -.5rem, 0) rotate(-26deg)
+  transform: translate3d(-22rem, -5.5rem, 0) rotate(-26deg);
 }
 
 .txt-animation:hover span:nth-of-type(19) {
-  transform: translate3d(-20rem, -.5rem, 0) rotate(-26deg)
+  transform: translate3d(-26rem, -0.5rem, 0) rotate(-26deg);
 }
-
 .switch {
   display: none;
 }
@@ -599,23 +706,29 @@ footer .social-div {
 footer {
   background-color: #000;
 }
+
 @media(min-width:768px) {
-.sec-1 .active img{
-  animation: mymovec 1s ease-in-out forwards;
+  .sec-1 .active img {
+    animation: mymovec 1s ease-in-out forwards;
+  }
+
+  .sec-1 .active1 .img-main:before {
+    animation: mymoveb 1.5s ease forwards;
+  }
 }
-.sec-1 .active1 .img-main:before {
-  animation: mymoveb 1.5s ease forwards;
-}
-}
+
 @media(max-width:980px) {
 
   .service .row-1,
-  .myworks .row {
+  .myworks .slider {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media(max-width:767px) {
+  .contact img {
+    border-radius: 75px 0px;
+}
   .contact .col {
     max-width: 80%;
     width: 80%;
@@ -639,7 +752,7 @@ footer {
   }
 
   h2 {
-    font-family: cursive;
+
     font-size: 30px;
   }
 
@@ -655,9 +768,50 @@ footer {
     padding: 8px 20px;
   }
 
-  .service .row-1,
-  .myworks .row {
+  .service .row-1 {
     grid-template-columns: 1fr;
+  }
+
+  .slider {
+    display: block;
+  }
+
+  .slide {
+    padding: 0 4px !important;
+  }
+
+  .slick-slide {
+    clip-path: inset(37px 0);
+    opacity: .5;
+    transition: 0.7s;
+  }
+
+  .slick-slider {
+    padding: 0%;
+  }
+
+  .slick-current {
+    opacity: 1;
+    clip-path: none;
+  }
+
+ 
+
+  div .slick-arrow {
+    font-size: 30px;
+    color: #fff !IMPORTANT;
+    position: absolute;
+    top: -81px;
+    right: 20px;
+    width: auto;
+    height: auto;
+    transform: rotate(-45deg);
+  }
+
+  div .slick-prev {
+    left: auto;
+    right: 70px;
+    transform: rotate(133deg);
   }
 
   /* .service .service-inner-sec-2>div div:nth-child(2),
@@ -666,6 +820,7 @@ footer {
     transform: none;
 
   } */
+
   div .service-inner-sec-2 .active>div:nth-child(2),
   div .service-inner-sec-2 .active>div:last-child {
     transform: none !important;
@@ -687,12 +842,14 @@ footer {
     margin-left: auto;
   }
 
-  .myworks .row {
-    padding: 0 20px;
-  }
+
 
   .about .col-1-inner {
     transform: translateY(19px) !IMPORTANT;
+    margin-left: -107px;
+  }
+  .about .active .col-1-inner{
+    margin-left: 0;
   }
 
   .about .row-1:before {
@@ -703,8 +860,18 @@ footer {
   .sec-1 {
     padding-bottom: 50px !IMPORTANT;
   }
+
   .myworks .slide:nth-child(odd) {
-    transform:none;
+    transform: none;
+  }
+  .sec-1 img{
+    animation: unset;
+    transform: rotate3d(1, 1, 1, 45deg);
+    opacity: 0;
+  }
+  .sec-1  .active1 img {
+    transform: none;
+    opacity: 1;
 }
 }
 
@@ -716,9 +883,10 @@ footer {
     position: relative;
     /* overflow-x: hidden; */
   }
-  /* .scroll-off{
+
+  html.scroll-off {
     overflow-y: hidden;
-  } */
+}
   body:before,
   body:after,
   #root:before,
@@ -760,7 +928,7 @@ footer {
   body.open:after,
   .open #root:before,
   .open #root:after {
-width: 100% !important;
+    width: 100% !important;
   }
 
   .main-menu {
@@ -845,38 +1013,39 @@ width: 100% !important;
     transform-origin: 100% 0;
   }
 
-  input:checked+div span.line-1 {
+  .open span.line-1 {
     transform: translate(0, 0) rotate(-45deg);
   }
 
-  input:checked+div span.line-3 {
+  .open span.line-3 {
     transform: translate(-100%, 0) rotate(-45deg);
   }
 
-  input:checked+div span.line-2 {
+  .open span.line-2 {
     transform: translate(-50%, -50%) rotate(45deg);
   }
-  .line-1:not(.open span ) {
+
+  .line-1:not(.open span) {
     animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
   }
-  
-  
-  
-  .line-3:not(.open span ) {
+
+
+
+  .line-3:not(.open span) {
     animation: burger-hover 1s infinite ease-in-out alternate forwards 10ms;
   }
-  
+
   @keyframes burger-hover {
     0% {
-      width: 100%;
-    }
-  
-    50% {
       width: 50%;
     }
-  
+
+    50% {
+      width: 85%;
+    }
+
     100% {
-      width: 100%;
+      width: 50%;
     }
   }
 }
@@ -934,7 +1103,7 @@ width: 100% !important;
   animation: mymoveb 1.5s ease forwards;
 }
 
-.active1 img{
+.active1 img {
   animation: mymovec 1s ease-in-out forwards;
 }
 
@@ -1015,7 +1184,10 @@ width: 100% !important;
   transform: scale(0.4);
   transition: 1s ease-in-out;
 }
-
+/* tech */
+.technologies{
+  background: linear-gradient(126deg, #132033 45%, #000000 31%) !important;
+}
 .contact .col-2 {
   transform: translateY(166px);
 
@@ -1035,8 +1207,8 @@ width: 100% !important;
 
 }
 
-.about .col-one ,
-.about .col-three{
+.about .col-one,
+.about .col-three {
   transform: translateX(152px);
   opacity: 0;
   transition: 1s ease-in-out;
@@ -1047,6 +1219,7 @@ width: 100% !important;
   opacity: 0;
   transition: 1s ease-in-out;
 }
+
 .about .active .col-two,
 .about .active .col-three,
 .about .active .col-one {
