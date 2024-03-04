@@ -10,8 +10,8 @@ import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 function Banner() { 
   return (
     <>
-      <section className=" service    before-after  text-center">
-        <div id="service" class="technologies pt-sm-5 pt-1 pb-3 service-inner-sec-2">
+      <section className=" service    before-after  text-center pt-lg-5 position-relative  tech-sec">
+        <div id="service" class="technologies pt-sm-5 pt-5 pb-3 service-inner-sec-2">
           
           <div className="d-flex container align-items-center h3 text-white mb-5">
             <MdOutlineKeyboardArrowLeft />
@@ -36,7 +36,7 @@ function Banner() {
                 React.js is a powerful JavaScript library developed by Facebook
                 for building dynamic user interfaces. With its component-based
                 architecture, React allows developers to create reusable UI
-                components
+                components.
               </p>
             </div>
             <div class="col-sm-4  p-3 pt-4 pb-4">
@@ -56,7 +56,7 @@ function Banner() {
                 CSS is a stylesheet language used for styling HTML documents,
                 controlling layout, colors, and typography. It separates content
                 from presentation, enabling consistent design across multiple
-                web pages
+                web pages.
               </p>
             </div>
 
@@ -68,7 +68,7 @@ function Banner() {
                 language for creating web pages and web applications. It
                 structures content using elements such as headings, paragraphs,
                 and images, facilitating the display and interaction of
-                information on the internet
+                information on the internet.
               </p>
             </div>
           </div>

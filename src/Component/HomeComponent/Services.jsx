@@ -46,7 +46,7 @@ function Banner() {
             <h3>Web Design</h3>
             <p>
               Web design is the art of blending creativity with functionality to
-              create visually captivating and user-friendly digital experiences
+              create visually captivating and user-friendly digital experiences.
             </p>
           </div>
 

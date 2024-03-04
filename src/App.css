@@ -497,10 +497,10 @@ button.dark-btn:hover:after {
   max-width: 100%;
 }
 
-.myworks .row .slide img {
+/* .myworks .row .slide img {
   height: 275px;
   object-fit: cover;
-}
+} */
 
 .myworks .slide:nth-child(odd) {
   transform: translateY(-91px);
@@ -782,7 +782,7 @@ footer {
   }
 
   .slick-slide {
-    clip-path: inset(37px 0);
+    margin: 31px 0;
     opacity: .5;
     transition: 0.7s;
   }
@@ -793,7 +793,7 @@ footer {
 
   .slick-current {
     opacity: 1;
-    clip-path: none;
+    margin: 0;
   }
 
  
@@ -1194,6 +1194,11 @@ left: 0;
   opacity: 0;
 }
 /* tech */
+.tech-sec{
+  transform: translateY(-100px);
+  z-index: 5 !important;
+
+}
 .technologies{
   background: linear-gradient(126deg, #132033 45%, #000000 31%) !important;
 }
