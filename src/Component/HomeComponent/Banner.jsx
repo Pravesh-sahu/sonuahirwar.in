@@ -65,7 +65,7 @@ function Banner() {
             <h1 className="fw-bold">
               Sonu
               <br />
-              <span className="last-name">Ahirwar..</span>
+              <span className="last-name">Ahirwar.</span>
             </h1>
             <p className="opacity-75">
               As a passionate front-end developer, I specialize in crafting
