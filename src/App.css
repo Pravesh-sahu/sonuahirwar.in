@@ -727,6 +727,11 @@ footer {
 }
 
 @media(max-width:767px) {
+  footer .social-div{
+    column-gap: 22px;
+    font-size: 25px;
+  }
+  
   .contact img {
     border-radius: 75px 0px;
 }
