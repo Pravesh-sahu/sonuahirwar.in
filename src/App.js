@@ -5,7 +5,7 @@ import "./App.css";
 import Home from "./Component/Home";
 import "./custom";
 import React, { useEffect } from "react";
-import Technolgies from "./Component/Technolgies.jsx";
+import Technologies from "./Component/Technologies.jsx";
 
 function App() {
   useEffect(() => {
@@ -40,7 +40,7 @@ function App() {
         <Routes>
        
           <Route path="/" element={<Home />}></Route>
-          <Route path="/Technolgies" element={<Technolgies />}></Route>
+          <Route path="/Technologies" element={<Technologies />}></Route>
         </Routes>
       </Router>
       <Footer />

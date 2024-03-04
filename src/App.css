@@ -414,7 +414,8 @@ button.dark-btn:hover:after {
   /* transform: translateX(-50%); */
   z-index: -1;
 }
-
+.about .social-div {
+  right: -10px !important;}
 .about .social-div {
   right: 10px;
   bottom: 20px;
@@ -1060,12 +1061,19 @@ footer {
 
 @media(max-width:1111px) {
 
+  .about .col-3-inner {
+  left:  93px;
+}
+.about .active .col-3-inner{
+left: 0;
+}
   .col-1-inner,
   .about .col-3-inner,
   .about .col-2-inner {
     margin: auto;
     transform: translate(0px, 0px) !important;
     width: 80%;
+    z-index: 1;
   }
 
   .about .col-3-inner,
@@ -1076,7 +1084,7 @@ footer {
 
   .about .col-3-inner {
     transform: translate(0px, -35px);
-    z-index: -1;
+    z-index: 0;
   }
 
   .about .col-2-inner {
@@ -1183,6 +1191,7 @@ footer {
 .contact .col-1 {
   transform: scale(0.4);
   transition: 1s ease-in-out;
+  opacity: 0;
 }
 /* tech */
 .technologies{
@@ -1197,7 +1206,7 @@ footer {
 
 .contact .active .col-1 {
   transform: none;
-
+  opacity: 1;
 }
 
 .contact .active .col-2 {

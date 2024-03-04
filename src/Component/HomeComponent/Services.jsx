@@ -20,7 +20,7 @@ function Banner() {
                 clean, efficient code and pixel-perfect designs.
               </p>
               <a href="#MyWorks">
-                <button className="dark-btn">Exploour our projet</button>
+                <button className="dark-btn">Explore My Projects</button>
               </a>
             </div>
           </div>
