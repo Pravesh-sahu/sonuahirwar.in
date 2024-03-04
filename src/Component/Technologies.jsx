@@ -7,7 +7,7 @@ import java from "./../Assests/java.gif";
 import boot from "./../Assests/boot.gif";
 import hub from "./../Assests/hub.gif";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
-function Banner() {
+function Banner() { 
   return (
     <>
       <section className=" service    before-after  text-center">
@@ -24,7 +24,7 @@ function Banner() {
           </div>
           <div class="row-1 container  pb-sm-5 mb-sm-5 pb-1">
             <h3 className="sec-head text-white  position-relative">
-              Technolgies
+              Technologies
             </h3>
           </div>
 

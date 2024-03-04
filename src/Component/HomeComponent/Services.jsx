@@ -2,7 +2,7 @@ import design from "./../../Assests/design.gif";
 import development from "./../../Assests/development.gif";
 import maintainance from "./../../Assests/maintainance.gif";
 import ui from "./../../Assests/ui.gif";
-function Banner() {
+function Banner() { 
   return (
 
     <section className=" service   before-after  text-center">
@@ -68,7 +68,7 @@ function Banner() {
             </p>
           </div>
         </div>
-        <a href="/Technolgies">
+        <a href="/Technologies">
           {" "}
           <button className="mt-5 white-btn border-0 text-white">
             Technologies
