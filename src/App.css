@@ -761,6 +761,9 @@ footer {
 }
 
 @media(max-width:767px) {
+  div .technologies {
+    background: linear-gradient(100deg, #132033 27%, #000000 23%) !important;
+}
   footer .social-div{
     column-gap: 22px;
     font-size: 25px;
