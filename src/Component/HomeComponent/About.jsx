@@ -20,7 +20,7 @@ function About() {
         </div>
         <div class="row container m-auto row-1 position-relative pt-sm-5">
           <div class="col-1-inner p-md-5 p-4">
-            <h5>-Front end Developer</h5>
+            <h5>-Frontend Developer</h5>
             <h3 className="f-70">
               Sonu <br />
               Ahirwar
@@ -51,8 +51,8 @@ function About() {
               interfaces that are not only visually appealing but also intuitive
               and responsive.
             </p>
-            <a href="/Technolgies">
-              <button class="dark-btn">Technolgies</button>
+            <a href="/Technologies">
+              <button class="dark-btn">Technologies</button>
             </a>
           </div>
         </div>

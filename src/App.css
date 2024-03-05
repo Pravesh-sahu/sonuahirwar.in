@@ -724,6 +724,40 @@ footer {
   .myworks .slider {
     grid-template-columns: 1fr 1fr;
   }
+
+  .sec-1 .txt-animation h3 {
+    animation: drop-in 0.8s ease 100ms backwards;
+   }
+   
+   .sec-1  h1 {
+    animation: drop-in 0.8s ease 600ms backwards;
+   }
+   .sec-1 p{
+    animation: drop-in 0.8s ease 1000ms backwards;
+   }
+   .sec-1  button {
+    animation: drop-btn 0.8s ease 1100ms backwards;
+   }
+   @keyframes drop-in {
+    from {
+      opacity: 0;
+      transform: translateY(-100px);
+     }
+     to {
+      opacity: 1;
+      transform: translate(0px);
+     }
+   }
+   @keyframes drop-btn {
+    from {
+     opacity: 0;
+     transform: scale(.4)
+    }
+    to {
+     opacity: 1;
+     transform: scale(1)
+    }
+   }
 }
 
 @media(max-width:767px) {

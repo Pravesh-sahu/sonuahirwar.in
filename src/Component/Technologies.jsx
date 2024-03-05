@@ -72,7 +72,7 @@ function Banner() {
               </p>
             </div>
           </div>
-          <div class="row-1 container pt-5 mb-3">
+          <div class="row-1 container pt-sm-5 pt-1 mb-3">
             <div class="col-sm-4  p-3 pt-4 pb-4">
               <img src={java} alt="logo" className="w-50" />
               <h3>JavaScript</h3>

@@ -67,7 +67,7 @@ function Banner() {
               <br />
               <span className="last-name">Ahirwar.</span>
             </h1>
-            <p className="opacity-75">
+            <p >
               As a passionate front-end developer, I specialize in crafting
               beautiful and intuitive user interfaces that captivate and engage
               users. With 2+ years of experience in web development, I bring a
