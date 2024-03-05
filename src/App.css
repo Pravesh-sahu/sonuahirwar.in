@@ -726,14 +726,14 @@ footer {
   }
 
   .sec-1 .txt-animation h3 {
-    animation: drop-in 0.6s ease 100ms backwards;
+    animation: drop-in 0.8s ease 100ms backwards;
    }
    
    .sec-1  h1 {
-    animation: drop-in 0.6s ease 600ms backwards;
+    animation: drop-in 0.8s ease 600ms backwards;
    }
    .sec-1 p{
-    animation: drop-in 0.6s ease 1000ms backwards;
+    animation: drop-in 0.8s ease 1000ms backwards;
    }
    .sec-1  button {
     animation: drop-btn 0.8s ease 1100ms backwards;
@@ -761,9 +761,7 @@ footer {
 }
 
 @media(max-width:767px) {
-  div .technologies {
-    background: linear-gradient(110deg, #132033 27%, #000000 23%) !important;
-}
+
   footer .social-div{
     column-gap: 22px;
     font-size: 25px;
