@@ -5,7 +5,7 @@ import wordpress from "./../Assests/wordpress.gif";
 import css from "./../Assests/css.gif";
 import java from "./../Assests/java.gif";
 import boot from "./../Assests/boot.gif";
-import hub from "./../Assests/hub.gif";
+
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 function Banner() { 
   return (
@@ -105,15 +105,7 @@ function Banner() {
               </p>
             </div>
 
-            {/* <div class="col-sm-4  p-3 pt-4 pb-4">
-              <img src={hub} alt="logo" className="w-50" />
-              <h3>Hubspot</h3>
-              <p>
-                HubSpot is a leading inbound marketing and sales platform known
-                for its suite of tools for marketing automation, CRM, and
-                customer service.
-              </p>
-            </div> */}
+        
           </div>
         </div>
       </section>
