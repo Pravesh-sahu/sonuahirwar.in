@@ -105,7 +105,7 @@ function Banner() {
               </p>
             </div>
 
-            <div class="col-sm-4  p-3 pt-4 pb-4">
+            {/* <div class="col-sm-4  p-3 pt-4 pb-4">
               <img src={hub} alt="logo" className="w-50" />
               <h3>Hubspot</h3>
               <p>
@@ -113,7 +113,7 @@ function Banner() {
                 for its suite of tools for marketing automation, CRM, and
                 customer service.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
