@@ -11,8 +11,8 @@ function Banner() {
           <div class="row position-relative p-md-5 p-3 pb-5 pt-5">
             <div class="col">
               <h2>
-                I can create amazing
-                <br /> web experiences{" "}
+                I Can Create Amazing
+                <br /> Web Experiences{" "}
               </h2>
               <p>
                 Passionate front-end developer with a knack for turning ideas
@@ -22,7 +22,7 @@ function Banner() {
               <a href="#MyWorks">
                 <button className="dark-btn">Explore My Projects</button>
               </a>
-            </div>
+            </div>   
           </div>
         </div>
       </div>
