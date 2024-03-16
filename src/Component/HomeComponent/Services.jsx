@@ -11,7 +11,7 @@ function Banner() {
           <div class="row position-relative p-md-5 p-3 pb-5 pt-5">
             <div class="col">
               <h2>
-                I Can can create amazing
+                I can create amazing
                 <br /> web experiences{" "}
               </h2>
               <p>
