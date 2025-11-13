@@ -17,7 +17,7 @@ function Footer() {
         <a href="https://wa.me/7354859868" className="d-flex align-items-center bg-color-dark p-2 rounded">
           <FaWhatsapp />
         </a>
-            <a href="mailto:sonuahirwarak210@gmail.com"  className="d-flex align-items-center bg-color-dark p-2 rounded">
+            <a href="mailto:sonuahirwarak212@gmail.com"  className="d-flex align-items-center bg-color-dark p-2 rounded">
       <IoMailUnreadOutline />
 
         </a>
