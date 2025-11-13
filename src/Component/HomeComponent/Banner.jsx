@@ -70,7 +70,7 @@ function Banner() {
             <p >
               As a passionate front-end developer, I specialize in crafting
               beautiful and intuitive user interfaces that captivate and engage
-              users. With 2+ years of experience in web development, I bring a
+              users. With 4 years of experience in web development, I bring a
               keen eye for design, a strong understanding of user experience
               principles, and expertise in the latest front-end technologies.
             </p>
