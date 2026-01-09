@@ -47,7 +47,7 @@ function Banner() {
                 jQuery is a lightweight JavaScript library simplifying DOM
                 manipulation and event handling. With concise syntax, it
                 streamlines web development tasks and ensures cross-browser
-                compatibility.
+                compatibility. 
               </p>
             </div>
             <div class="col-sm-4  p-3 pt-4 pb-4">
