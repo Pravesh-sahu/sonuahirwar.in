@@ -4,12 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { GiPaperArrow } from "react-icons/gi";
 import project1 from "./../../Assests/project1.png";
-import project2 from "./../../Assests/raan.png";
+import project2 from "./../../Assests/raans.png";
 import project3 from "./../../Assests/project3.png";
 import project4 from "./../../Assests/project4.png";
-import project5 from "./../../Assests/natural.png";
+import project5 from "./../../Assests/naturalcraft.png";
 import project6 from "./../../Assests/project6.png";
-import project7 from "./../../Assests/poadcast.png";
+import project7 from "./../../Assests/naturals.png";
 import project8 from "./../../Assests/project8.png"; 
 
 
