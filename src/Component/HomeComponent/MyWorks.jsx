@@ -13,7 +13,7 @@ import project7 from "./../../Assests/poadcast.png";
 import project8 from "./../../Assests/project8.png"; 
 
 
-function About() {
+function About() { 
   
   const settings = {
     slidesToShow: 5,
