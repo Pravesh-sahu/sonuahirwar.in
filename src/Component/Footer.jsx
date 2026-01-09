@@ -8,13 +8,13 @@ function Footer() {
         <a href="https://www.linkedin.com/in/sonu-ahirwar-4628331a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="d-flex align-items-center bg-color-dark p-2 rounded">
           <FaLinkedin />
         </a>
-        <a href="https://www.instagram.com/sonuahirwar_/?igsh=dWp6bTJha2lqeDhy" target="_blank" className="d-flex align-items-center bg-color-dark p-2 rounded">
+        <a href="https://www.instagram.com/sonuahirwar_/?igsh=dWp6bTJha2lqeDhy"  className="d-flex align-items-center bg-color-dark p-2 rounded">
           <FaInstagram /> 
         </a>
         <a href="https://www.facebook.com/sonu.ahirwar.5070" className="d-flex align-items-center bg-color-dark p-2 rounded">
           <FaFacebook />
         </a>
-        <a href="https://wa.me/7354859868" target="_blank" className="d-flex align-items-center bg-color-dark p-2 rounded">
+        <a href="https://wa.me/7354859868"  className="d-flex align-items-center bg-color-dark p-2 rounded">
           <FaWhatsapp />
         </a>
             <a href="mailto:sonuahirwarak212@gmail.com"  className="d-flex align-items-center bg-color-dark p-2 rounded">
