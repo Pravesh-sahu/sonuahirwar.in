@@ -29,16 +29,20 @@ function About() {
           <div class="col-3-inner position-relative">
             <img src={profile} className="w-100" alt="my-profile" />
             <div className="social-div position-absolute bg-color-dark ">
-              <a href="https://www.linkedin.com/in/sonu-ahirwar-4628331a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <a href="https://www.linkedin.com/in/sonu-ahirwar-4628331a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"   target="_blank"
+  rel="noopener noreferrer">
                 <FaLinkedin />
               </a>
-              <a href="https://www.instagram.com/sonuahirwar_/?igsh=dWp6bTJha2lqeDhy">
+              <a href="https://www.instagram.com/sonuahirwar_/?igsh=dWp6bTJha2lqeDhy"   target="_blank"
+  rel="noopener noreferrer">
                 <FaInstagram />
               </a>
-              <a href="https://www.facebook.com/sonu.ahirwar.5070">
+              <a href="https://www.facebook.com/sonu.ahirwar.5070"   target="_blank"
+  rel="noopener noreferrer">
                 <FaFacebook />
               </a>
-              <a href=" https://wa.me/7354859868">
+              <a href=" https://wa.me/7354859868"   target="_blank"
+  rel="noopener noreferrer">
                 <FaWhatsapp />
               </a>
             </div>
