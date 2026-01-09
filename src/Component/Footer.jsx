@@ -5,7 +5,7 @@ function Footer() {
     <footer className="p-4 mt-4">
       {/* <div><a href="mailto:sonuahirwarak210@gmail.com">sonuahirwarak210@gmail.com</a></div> */}
       <div className="social-div    d-flex justify-content-center ">
-        <a href="https://www.linkedin.com/in/sonu-ahirwar-4628331a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="d-flex align-items-center bg-color-dark p-2 rounded">
+        <a href="https://www.linkedin.com/in/sonu-ahirwar-4628331a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  className="d-flex align-items-center bg-color-dark p-2 rounded">
           <FaLinkedin />
         </a>
         <a href="https://www.instagram.com/sonuahirwar_/?igsh=dWp6bTJha2lqeDhy"  className="d-flex align-items-center bg-color-dark p-2 rounded">
