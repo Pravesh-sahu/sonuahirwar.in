@@ -9,7 +9,7 @@ function Footer() {
           <FaLinkedin />
         </a>
         <a href="https://www.instagram.com/sonuahirwar_/?igsh=dWp6bTJha2lqeDhy" target="_blank" className="d-flex align-items-center bg-color-dark p-2 rounded">
-          <FaInstagram />
+          <FaInstagram /> 
         </a>
         <a href="https://www.facebook.com/sonu.ahirwar.5070" className="d-flex align-items-center bg-color-dark p-2 rounded">
           <FaFacebook />
