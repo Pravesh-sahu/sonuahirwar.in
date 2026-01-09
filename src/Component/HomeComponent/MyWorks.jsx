@@ -4,12 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { GiPaperArrow } from "react-icons/gi";
 import project1 from "./../../Assests/project1.png";
-import project2 from "./../../Assests/project2.png";
+import project2 from "./../../Assests/raan.png";
 import project3 from "./../../Assests/project3.png";
 import project4 from "./../../Assests/project4.png";
-import project5 from "./../../Assests/project5.png";
+import project5 from "./../../Assests/natural.png";
 import project6 from "./../../Assests/project6.png";
-import project7 from "./../../Assests/project7.png";
+import project7 from "./../../Assests/poadcast.png";
 import project8 from "./../../Assests/project8.png";
 
 
@@ -62,15 +62,15 @@ function About() {
           </div>
 
           <div className="slide">
-                <a href="https://www.reb8fx.com/" target="_blank" className="d-block position-relative h-100 overflow-hidden">
+                <a href="https://raan.com/" target="_blank" className="d-block position-relative h-100 overflow-hidden">
               <img src={project2} className="w-100" alt="my-profile" />
-              <div className="content"><h5>REB8FX</h5><button className="dark-btn mt-2">Visit Website</button></div>
+              <div className="content"><h5>RAAN</h5><button className="dark-btn mt-2">Visit Website</button></div>
             </a>
           </div>
           <div className="slide">
-                <a href="https://claritymalaga.com/en/" target="_blank" className="d-block position-relative h-100 overflow-hidden">
+                <a href="https://podcastmonkey.co/" target="_blank" className="d-block position-relative h-100 overflow-hidden">
               <img src={project7} className="w-100" alt="my-profile" />
-              <div className="content"><h5>CLARITYMALAGA</h5><button className="dark-btn mt-2">Visit Website</button></div>
+              <div className="content"><h5>POADCASTMONKEY</h5><button className="dark-btn mt-2">Visit Website</button></div>
             </a>
           </div>
           <div className="slide">
@@ -86,9 +86,9 @@ function About() {
             </a>
           </div>
           <div className="slide">
-                <a href="https://jmbliss.com/" target="_blank" className="d-block position-relative h-100 overflow-hidden">
+                <a href="https://thenaturalcraft.com/" target="_blank" className="d-block position-relative h-100 overflow-hidden">
               <img src={project5} className="w-100" alt="my-profile" />
-              <div className="content"><h5>JMBLISS</h5><button className="dark-btn mt-2">Visit Website</button></div>
+              <div className="content"><h5>NATURAL CRAFT</h5><button className="dark-btn mt-2">Visit Website</button></div>
             </a>
           </div>
           <div className="slide">
