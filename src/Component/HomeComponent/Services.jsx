@@ -68,7 +68,8 @@ function Banner() {
             </p>
           </div>
         </div>
-        <a href="/Technologies">
+        <a href="/Technologies"   target="_blank"
+  rel="noopener noreferrer">
           {" "}
           <button className="mt-5 white-btn border-0 text-white">
             Technologies
