@@ -10,7 +10,7 @@ import project4 from "./../../Assests/project4.png";
 import project5 from "./../../Assests/natural.png";
 import project6 from "./../../Assests/project6.png";
 import project7 from "./../../Assests/poadcast.png";
-import project8 from "./../../Assests/project8.png";
+import project8 from "./../../Assests/project8.png"; 
 
 
 function About() {
