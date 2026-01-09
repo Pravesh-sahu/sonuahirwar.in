@@ -109,9 +109,9 @@ function Banner() {
               <img src={shopify} alt="logo" className="w-50" />
               <h3>Shopify</h3>
               <p>
-               Shopify is a powerful e-commerce platform that allows businesses to create and manage online stores.
-                I specialize in customizing themes, integrating third-party apps, and optimizing Shopify stores for a seamless user experience.
-                With expertise in Liquid, HTML, CSS, and JavaScript, I help clients build tailored, scalable solutions that drive sales and enhance functionality.
+             Shopify is a leading e-commerce platform for building and managing online stores. I specialize in theme customization,
+                app integration, and store optimization, using Liquid, HTML, CSS, and JavaScript to create tailored, 
+                scalable solutions that boost sales and functionality.
               </p>
             </div>
         
