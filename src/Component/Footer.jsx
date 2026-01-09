@@ -23,7 +23,7 @@ function Footer() {
         </a>
         
       </div>
-    </footer>
+    </footer> 
   );
 }
 export default Footer;
