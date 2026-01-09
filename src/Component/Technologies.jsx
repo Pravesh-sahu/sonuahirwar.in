@@ -104,7 +104,16 @@ function Banner() {
                 customizable themes and plugins.
               </p>
             </div>
-
+       <div class="col-sm-4  p-3 pt-4 pb-4">
+              <img src={wordpress} alt="logo" className="w-50" />
+              <h3>Wordpress</h3>
+              <p>
+                WordPress is a popular open-source content management system
+                (CMS) known for its flexibility and ease of use. It allows users
+                to create and manage websites, blogs, and online stores with
+                customizable themes and plugins.
+              </p>
+            </div>
         
           </div>
         </div>
