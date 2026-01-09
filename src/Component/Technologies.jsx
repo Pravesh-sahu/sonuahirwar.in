@@ -108,10 +108,9 @@ function Banner() {
               <img src={wordpress} alt="logo" className="w-50" />
               <h3>Shopify</h3>
               <p>
-                WordPress is a popular open-source content management system
-                (CMS) known for its flexibility and ease of use. It allows users
-                to create and manage websites, blogs, and online stores with
-                customizable themes and plugins.
+               Shopify is a powerful e-commerce platform that allows businesses to create and manage online stores.
+                I specialize in customizing themes, integrating third-party apps, and optimizing Shopify stores for a seamless user experience.
+                With expertise in Liquid, HTML, CSS, and JavaScript, I help clients build tailored, scalable solutions that drive sales and enhance functionality.
               </p>
             </div>
         
