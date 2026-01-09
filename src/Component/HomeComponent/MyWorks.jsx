@@ -55,20 +55,23 @@ function About() {
         <div class="row slider-right position-relative z-1">
         <Slider {...settings}>
           <div className="slide">
-                <a href="https://nilohealth.com/"  className="d-block position-relative h-100 overflow-hidden">
+                <a href="https://nilohealth.com/"    target="_blank"
+  rel="noopener noreferrer" className="d-block position-relative h-100 overflow-hidden">
               <img src={project1} className="w-100" alt="my-profile" />
               <div className="content"><h5>NILOHEALTH</h5><button className="dark-btn mt-2">Visit Website</button></div>
             </a>
           </div>
 
           <div className="slide">
-                <a href="https://raan.com/"  className="d-block position-relative h-100 overflow-hidden">
+                <a href="https://raan.com/"    target="_blank"
+  rel="noopener noreferrer" className="d-block position-relative h-100 overflow-hidden">
               <img src={project2} className="w-100" alt="my-profile" />
               <div className="content"><h5>RAAN</h5><button className="dark-btn mt-2">Visit Website</button></div>
             </a>
           </div>
           <div className="slide">
-                <a href="https://podcastmonkey.co/"  className="d-block position-relative h-100 overflow-hidden">
+                <a href="https://podcastmonkey.co/"   target="_blank"
+  rel="noopener noreferrer" className="d-block position-relative h-100 overflow-hidden">
               <img src={project7} className="w-100" alt="my-profile" />
               <div className="content"><h5>POADCASTMONKEY</h5><button className="dark-btn mt-2">Visit Website</button></div>
             </a>
@@ -80,26 +83,30 @@ function About() {
             </a>
           </div>
           <div className="slide">
-                <a href="https://www.jusre.be/"  className="d-block position-relative h-100 overflow-hidden">
+                <a href="https://www.jusre.be/"   target="_blank"
+  rel="noopener noreferrer" className="d-block position-relative h-100 overflow-hidden">
               <img src={project4} className="w-100" alt="my-profile" />
               <div className="content"><h5>JUSRE</h5><button className="dark-btn mt-2">Visit Website</button></div>
             </a>
           </div>
           <div className="slide">
-                <a href="https://thenaturalcraft.com/"  className="d-block position-relative h-100 overflow-hidden">
+                <a href="https://thenaturalcraft.com/"   target="_blank"
+  rel="noopener noreferrer" className="d-block position-relative h-100 overflow-hidden">
               <img src={project5} className="w-100" alt="my-profile" />
               <div className="content"><h5>NATURAL CRAFT</h5><button className="dark-btn mt-2">Visit Website</button></div>
             </a>
           </div>
           <div className="slide">
-                <a href="https://visitas.haciendaguzman.com/"  className="d-block position-relative h-100 overflow-hidden">
+                <a href="https://visitas.haciendaguzman.com/"   target="_blank"
+  rel="noopener noreferrer" className="d-block position-relative h-100 overflow-hidden">
               <img src={project6} className="w-100" alt="my-profile" />
               <div className="content"><h5>Haciendaguzman</h5><button className="dark-btn mt-2">Visit Website</button></div>
             </a>
           </div>
       
           <div className="slide">
-                <a href="https://cosmoclinic.it/"  className="d-block position-relative h-100 overflow-hidden">
+                <a href="https://cosmoclinic.it/"   target="_blank"
+  rel="noopener noreferrer" className="d-block position-relative h-100 overflow-hidden">
               <img src={project8} className="w-100" alt="my-profile" />
               <div className="content"><h5>COSMO CLINIC</h5><button className="dark-btn mt-2">Visit Website</button></div>
             </a>
