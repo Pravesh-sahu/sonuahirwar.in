@@ -5,6 +5,7 @@ import wordpress from "./../Assests/wordpress.gif";
 import css from "./../Assests/css.gif";
 import java from "./../Assests/java.gif";
 import boot from "./../Assests/boot.gif";
+import shopify from "./../Assests/shopping-bag_19016740.gif";
 
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 function Banner() { 
@@ -105,7 +106,7 @@ function Banner() {
               </p>
             </div>
        <div class="col-sm-4  p-3 pt-4 pb-4">
-              <img src={wordpress} alt="logo" className="w-50" />
+              <img src={shopify} alt="logo" className="w-50" />
               <h3>Shopify</h3>
               <p>
                Shopify is a powerful e-commerce platform that allows businesses to create and manage online stores.
