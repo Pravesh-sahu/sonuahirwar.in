@@ -50,7 +50,7 @@ function About() {
          <div class="row-1 container  pb-sm-5 mb-sm-5 ">
   
           <h3 className="sec-head text-white mb-5 position-relative">My Works</h3>
-        </div>
+        </div> 
       <div class="container full-width pt-sm-5 pt-1 mt-5">
         <div class="row slider-right position-relative z-1">
         <Slider {...settings}>
