@@ -51,7 +51,8 @@ function About() {
               interfaces that are not only visually appealing but also intuitive
               and responsive.
             </p>
-            <a href="/Technologies">
+            <a href="/Technologies"   target="_blank"
+  rel="noopener noreferrer">
               <button class="dark-btn">Technologies</button>
             </a>
           </div>
